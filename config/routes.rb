@@ -1,4 +1,7 @@
 FirstApp::Application.routes.draw do
+  get "say/hello"
+  match 'say/:parmName' => 'say#word'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
