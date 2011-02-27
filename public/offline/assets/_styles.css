@@ -1,0 +1,83 @@
+*, html
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body, form, ul, li, p, h1, h2, h3, h4, h5
+{
+	margin: 0;
+	padding: 0;
+}
+html, body 
+{
+	height: 100%;
+}
+body { background: #606061 /*url(gr_bg_header.jpg) 0 0 repeat-x*/;}
+body#error { background: #000000; text-align: center; height: auto !important; }
+
+.clear
+{
+	height: 0 !important;
+	line-height: 0 !important;
+	clear: both !important;
+	font-size: 1px !important;
+	margin: 0;
+	padding: 0;
+	float: none !important;
+}
+img
+{
+	border: none;
+}
+p
+{
+	font-size: 1em;
+	margin: 0 0 1em 0;
+}
+
+/* Styles for scalable font consistency */
+
+html { font-size: 100%; height: 100%; /* IE hack */ }
+body { font-size: 0.75em; } /* Base font 12px */
+table { font-size: 100%; /* IE hack */ }
+
+input, select, textarea, th, td { font-size:1em; }
+
+h1 { font-size: 5.416em; line-height: 1em; } 
+h2 { font-size: 2em; line-height: 1em; margin: 0 0 0.792em 0; }
+
+/* START: @Structural styling */
+#maincontainer 
+{
+	margin: 0 auto;
+}
+/* END: Structural styling */
+	
+/* START: Content styling */
+#content
+{
+	padding: 10px;
+}
+#content a
+{
+	color: #18191D;
+}
+#content p
+{
+	color: #ffffff;
+}
+		
+.article
+{
+	border: 1px solid #fff;
+	padding: 10px;
+}
+	#content .article h2
+	{
+		line-height: 1.458em;
+		background: url(ico_ninja-star.gif) 0 0 no-repeat;
+		padding: 0 0 0 48px;
+		color: #1a1a1d;
+		margin: 0 0 0.5em 0;
+	}
+/* END: Content styling */
